@@ -1,0 +1,83 @@
+.page {
+  padding: 2rem 0;
+}
+
+.card {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.card h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  margin: 0 0 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.input,
+.textarea {
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 4rem;
+}
+
+.error {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--danger);
+}
+
+.submit {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.submit:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+.submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.muted {
+  margin: 0;
+  color: var(--text-muted);
+}

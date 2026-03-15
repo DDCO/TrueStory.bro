@@ -1,0 +1,28 @@
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.unverified {
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+}
+
+.evidence {
+  background: rgba(234, 179, 8, 0.2);
+  color: var(--warning);
+}
+
+.multiple {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--accent);
+}
+
+.confirmed {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--success);
+}
